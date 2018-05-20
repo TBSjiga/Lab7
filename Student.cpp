@@ -1,7 +1,7 @@
 #include "Student.h"
 #include <string>
 
-Student::Student(string surname, string name, string midname, int age, bool on_lesson)
+Student::Student(string &surname, string &name, string &midname, int &age, bool &on_lesson)
 {
 	//Human::Human(surname, name, midname, age);
 	this->age = age;
