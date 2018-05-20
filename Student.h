@@ -9,7 +9,7 @@ class Student :
 private:
 	bool on_lesson;
 public:
-	Student(string surname, string name, string midname, int age, bool on_lesson);
+	Student(string &surname, string &name, string &midname, int &age, bool &on_lesson);
 	Student();
 	~Student();
 	void print()
@@ -18,6 +18,6 @@ public:
 		if (this->on_lesson) cout << "on lesson.";
 		else cout << "not on lesson." << endl;
 	}
-	void seton_lesson(bool on_lesson) { this->on_lesson = on_lesson; }
+	void seton_lesson(bool &on_lesson) { this->on_lesson = on_lesson; }
 	bool geton_lesson() { return on_lesson; }
 };
