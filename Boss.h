@@ -13,7 +13,7 @@ public:
 	~Boss();
 	void print()
 	{
-		cout << "Boss" << endl << "surname:" << this->name << endl << "name:" << this->name << endl << "midname:" << this->midname << endl << "age:" << this->age << endl
+		cout << "Boss" << endl << "surname:" << this->surname << endl << "name:" << this->name << endl << "midname:" << this->midname << endl << "age:" << this->age << endl
 			<< "number of workers:" << this->number_of_workers<<"." << endl << endl;
 	}
 	void setnumber_of_workers(int &number_of_workers) { this->number_of_workers = number_of_workers; }
