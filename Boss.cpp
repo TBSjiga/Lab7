@@ -1,7 +1,7 @@
 #include "Boss.h"
 #include <string>
 
-Boss::Boss(string surname, string name, string midname, int age, int number_of_workers)
+Boss::Boss(string &surname, string &name, string &midname, int &age, int &number_of_workers)
 {
 	//Human::Human(surname, name, midname, age);
 	this->age = age;
