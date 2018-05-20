@@ -8,7 +8,7 @@ Human::Human()
 	this->surname = "";
 }
 
-Human::Human(string surname, string name, string midname, int age)
+Human::Human(string &surname, string &name, string &midname, int &age)
 {
 	this->age = age;
 	this->midname = midname;
